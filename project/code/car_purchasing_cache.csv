@@ -11,7 +11,7 @@ Marny Obrien,Phasellus@sedsemegestas.org,Armenia,0,46.58474463,58139.2591,3440.8
 Rhonda Chavez,nec@nuncest.com,Somalia,1,43.32378156,53457.10132,12884.07868,476643.3544,38189.50601
 Jerome Rowe,ipsum.cursus@dui.org,Sint Maarten,1,50.12992275,73348.70745,8270.707359,612738.6171,59045.51309
 Akeem Gibson,turpis.egestas.Fusce@purus.edu,Greenland,1,53.18015845,55421.65733,10014.96929,293862.5123,42288.81046
-Quin Smith,nulla@ipsum.edu,Nicaragua,1,44.3964937,37336.3383,10218.32092,430907.1673,28700.0334
+Quin Smith,nulla@ipsum.edu,Nicaragua,0,44.3964937,37336.3383,10218.32092,430907.1673,28700.0334
 Tatum Moon,Cras.sed.leo@Seddiamlorem.ca,"Palestine, State of",0,48.49651504,68304.47298,9466.995128,420322.0702,49258.87571
 Sharon Sharpe,eget.metus@aaliquetvel.co.uk,United Arab Emirates,0,55.24486604,72776.00382,10597.63814,146344.8965,49510.03356
 Thomas Williams,aliquet.molestie@ut.org,Gabon,1,53.28976788,64662.30061,11326.03434,481433.4324,53017.26723
@@ -58,7 +58,7 @@ Roanna Knox,dolor.nonummy@metusurnaconvallis.net,Guinea-Bissau,0,57.12191756,524
 Marny Vargas,nonummy.Fusce.fermentum@ligula.org,Egypt,1,33.81629802,84467.78988,7772.444847,468238.7915,47380.91224
 Charlotte Waller,odio@Nuncac.org,Slovenia,1,43.03088068,51419.50777,11331.20447,636407.1148,41425.00116
 Dorian Hernandez,conubia.nostra.per@diam.co.uk,Benin,1,50.16597776,46609.51626,7592.019748,409419.5797,38147.81018
-Armando Hensley,Class.aptent@torquentper.com,Cape Verde,0,42.24181684,55207.45679,9976.434857,286062.5162,32737.80177
+Armando Hensley,Class.aptent@torquentper.com,Cape Verde,1,42.24181684,55207.45679,9976.434857,286062.5162,32737.80177
 Rowan Kidd,sapien.Aenean.massa@adipiscing.ca,Paraguay,1,42.05808927,46689.4159,7829.565502,615765.9289,37348.13737
 Gwendolyn Rice,Duis@metusIn.com,Laos,0,42.09853578,71847.2544,4225.328117,476088.3996,47483.85316
 Gareth Morris,est.Nunc.laoreet@nullavulputatedui.edu,Iceland,0,54.55868922,69236.68608,9842.842611,242495.9886,49730.53339
@@ -69,7 +69,7 @@ Yuli Craig,lobortis.quis.pede@Seddiam.com,Germany,0,55.27030631,62262.94845,1178
 Lev Kramer,eu.odio@tristique.org,Kyrgyzstan,1,42.69528911,59195.82899,8634.376791,573054.3808,43680.91327
 Nissim Acosta,enim@at.net,Mauritius,1,57.34721558,48716.67271,10886.91711,662382.6623,52707.96816
 Miranda Berry,lorem@necmauris.ca,Gambia,1,52.07227701,66478.00967,13685.88702,356553.3996,49392.8897
-Owen Jacobson,ac.orci@Etiamimperdietdictum.edu,"Palestine, State of",0,45.18543793,50280.0045,11350.49408,230728.3008,30841.00154
+Owen Jacobson,ac.orci@Etiamimperdietdictum.edu,"Palestine, State of",1,45.18543793,50280.0045,11350.49408,230728.3008,30841.00154
 Marvin Becker,congue.elit@vestibulumneceuismod.ca,Reunion,0,56.2157522,57393.82872,5627.803654,411831.0371,49373.37555
 Davis Scott,neque@variusultricesmauris.edu,Jordan,0,40.91485207,63429.93141,10676.21884,481335.3582,41903.65171
 Matthew Colon,facilisis@Nullainterdum.edu,Slovakia,1,47.78972925,59139.2108,4630.544424,473845.8546,45058.8969
@@ -91,7 +91,7 @@ Eagan Woodward,varius.et@Maecenas.edu,Indonesia,1,58.42573253,58065.25694,4204.9
 Ferdinand Weber,metus.Vivamus@vitaeposuere.org,Suriname,1,32.09408141,20000,14261.80773,579181.6552,12895.71468
 Kitra Kerr,scelerisque@Vivamusnon.co.uk,Palau,1,49.95601436,60536.20406,8244.470226,173079.1798,38955.21919
 Desirae Stone,Morbi.sit@Aliquamfringilla.ca,Ghana,1,58.61073311,50667.69759,9871.403591,536665.0464,51221.04249
-Len Phillips,libero.lacus@Suspendisseseddolor.net,Cameroon,0,42.37110355,44376.62221,13865.09055,259049.2824,25971.95673
+Len Phillips,libero.lacus@Suspendisseseddolor.net,Cameroon,1,42.37110355,44376.62221,13865.09055,259049.2824,25971.95673
 Yen Santana,ornare.facilisis@ornarelibero.ca,Myanmar,0,49.53216133,75958.28349,10562.90377,635512.3606,60670.33672
 Martina Fuentes,elit@nequeIn.com,Senegal,1,53.22984863,70896.72853,11794.73914,398746.8458,54075.12064
 Ariana Nash,vel.turpis.Aliquam@consequatpurus.edu,Central African Republic,1,46.69611835,56009.73073,11030.2654,391848.6041,40004.87142
@@ -100,7 +100,7 @@ Holmes Lane,ac.orci@accumsaninterdum.co.uk,Laos,1,43.38998458,71716.45662,8870.7
 Emerald Hamilton,sit.amet.orci@facilisis.edu,Egypt,0,48.92140102,68502.10943,5831.118245,515084.1891,52474.71839
 Gage Marquez,malesuada.vel@dictum.co.uk,Guam,0,43.14281871,46261.42666,16767.2636,759479.4596,42187.6828
 Travis Burks,dictum@liberolacusvarius.ca,Namibia,1,52.65668022,61858.19077,5189.083564,706977.053,57441.44414
-Otto Oneill,arcu.Morbi.sit@elementum.ca,Mozambique,0,35.62487152,49483.83262,11811.25253,242292.92,22681.71667
+Otto Oneill,arcu.Morbi.sit@elementum.ca,Mozambique,1,35.62487152,49483.83262,11811.25253,242292.92,22681.71667
 Brian Mathews,vulputate.mauris.sagittis@orciluctus.com,Bhutan,1,30.49235339,68289.18229,7357.787011,404457.3099,33640.73697
 Ralph Rich,et@tellus.edu,Tuvalu,0,37.37157248,47399.22827,14562.64194,537744.1324,31540.77868
 Yasir Tyler,pharetra.sed.hendrerit@adipiscinglobortisrisus.edu,Qatar,0,48.47639595,63975.0609,10614.85449,891439.8761,60461.24268
@@ -149,13 +149,13 @@ Allen Burke,eu.ultrices@In.edu,Pakistan,1,38.60885156,59316.93704,12296.34158,51
 Nero Morgan,non.sapien@seddictumeleifend.edu,Bahrain,0,61.10319817,38779.18396,12758.89583,581497.8874,47935.9394
 Reuben Holden,pede.nonummy@Vivamusnonlorem.co.uk,Macedonia,1,49.61576865,88292.73205,10799.1381,378357.9385,60222.22672
 Orson Hyde,gravida.sit@eget.net,Djibouti,1,37.49764004,68688.40199,15796.31838,375889.6381,38930.55234
-Nolan Conner,feugiat@felisNulla.org,Bolivia,0,45.49732494,51906.85022,13686.96935,85520.85055,21810.21814
+Nolan Conner,feugiat@felisNulla.org,Bolivia,1,45.49732494,51906.85022,13686.96935,85520.85055,27810.21814
 Stuart Reed,elementum@SeddictumProin.net,Serbia,1,49.83912893,52373.79446,11347.62967,633383.4925,47604.34591
 Rashad Harper,auctor@arcuimperdiet.ca,Timor-Leste,0,31.74162964,73768.12453,8132.073716,562663.8116,42356.6895
 Dieter Delaney,sit.amet.risus@ipsum.ca,Peru,0,33.77526933,55576.84068,9396.008371,475126.1252,31300.54347
 Hop Farley,in@et.co.uk,Austria,1,45.05203632,59689.81438,14862.84011,449895.3046,42369.64247
-Darius Herring,imperdiet@sem.edu,"Palestine, State of",0,50.21957282,55381.53225,5088.239017,20000,23837.22537
-Baker Saunders,Aliquam.nisl@hendreritidante.org,Lithuania,1,51.3001589,34154.77654,5316.010491,216355.3406,26499.31418
+Darius Herring,imperdiet@sem.edu,"Palestine, State of",0,50.21957282,55381.53225,5088.239017,20000,31837.22537
+Baker Saunders,Aliquam.nisl@hendreritidante.org,Lithuania,0,51.3001589,34154.77654,5316.010491,216355.3406,26499.31418
 Kermit Fuentes,ac@sedpedeCum.org,Curaçao,0,52.51683609,54382.7481,6940.056371,191168.4476,38172.83602
 Marvin Garner,in@sed.org,Djibouti,0,34.16409192,65919.59731,7594.363993,543789.7212,39433.40631
 Sebastian Marks,et.eros@feugiatmetussit.net,Zimbabwe,0,55.98961549,39488.45582,10992.33383,363561.1972,37714.31659
@@ -165,7 +165,7 @@ Trevor Faulkner,ut@vitaesodales.net,Uganda,0,40.41469076,71271.84407,13122.45694
 Gannon Nguyen,et.rutrum.eu@congue.net,Kenya,0,50.41432737,71693.44742,14421.48298,517480.0937,55592.70383
 Quentin Randall,Fusce.aliquet@egetmassa.co.uk,Macao,0,46.54726629,57860.53103,7146.192574,445745.5544,42484.02283
 Baker Norton,convallis@purus.net,Jersey,1,38.7080482,69142.08412,8707.511532,399124.4489,40879.19107
-Hakeem Mendoza,Maecenas@scelerisquelorem.ca,Kuwait,0,36.195148,52477.66494,12071.41684,97706.89181,20653.21409
+Hakeem Mendoza,Maecenas@scelerisquelorem.ca,Kuwait,1,36.195148,52477.66494,12071.41684,97706.89181,20653.21409
 Peter Maynard,vel.est.tempor@egetvenenatisa.com,Guinea,1,44.10061144,47592.04749,13167.65763,473101.0273,35438.80549
 Devin Humphrey,sodales.Mauris@ametornare.ca,Greece,0,46.86775698,48123.36983,921.5340234,405550.1689,36112.79346
 Isaiah Harding,pede.blandit@disparturient.net,Bouvet Island,1,33.20331461,76916.41515,13923.96207,315183.5688,38182.30465
@@ -247,16 +247,16 @@ Mark V. Vaughn,Morbi.vehicula@ac.net,Israel,1,46.27084405,77146.27598,7903.33495
 Anjolie A. Galloway,consequat.nec.mollis@nec.ca,Marshall Islands,0,44.35361663,56437.30404,10461.98276,249182.7848,34139.6373
 Kylee O. Warner,cursus.in@neque.co.uk,China,1,65.22488117,70703.85013,5025.365518,284991.7415,60763.24731
 MacKenzie O. Fowler,Aliquam.nec.enim@nec.co.uk,Saint Barthélemy,0,57.24274098,69810.46265,4684.556433,720423.8157,66158.69494
-Lana S. Pace,augue@orci.com,Cape Verde,0,46.60008704,54279.39597,5699.184814,124979.0501,31215.6421
+Lana S. Pace,augue@orci.com,Cape Verde,1,46.60008704,54279.39597,5699.184814,124979.0501,31215.6421
 Wilma L. Stevenson,non.vestibulum@consectetuer.ca,Sao Tome and Principe,0,36.11724689,70334.42787,9823.218967,632600.4718,46135.27233
 Sandra J. Huber,enim@famesac.org,Benin,0,56.77294754,59168.00751,10474.44187,623487.5952,56973.18105
-Octavius C. Spencer,Curabitur.consequat@miDuisrisus.com,Bangladesh,0,32.87492543,61889.61618,12024.48457,133226.0617,19184.07443
+Octavius C. Spencer,Curabitur.consequat@miDuisrisus.com,Bangladesh,0,32.87492543,61889.61618,12024.48457,133226.0617,24184.07443
 Brendan G. Kelley,vel@lorem.org,Venezuela,1,43.25105758,66013.95174,7039.540023,610942.1408,49079.61942
 Shaeleigh M. Mckenzie,diam.lorem.auctor@estmollisnon.net,Christmas Island,1,46.20524085,55434.04046,18693.14652,316906.6441,37093.92033
 Rooney R. Padilla,eu.turpis@accumsansed.co.uk,Philippines,0,45.26036406,68499.69447,15436.79968,308445.8598,43401.56612
 Damon K. Boone,nec@ad.net,French Southern Territories,1,42.80386517,54749.88645,7631.687821,152883.3519,29092.1311
 Taylor A. Patel,erat.vitae.risus@temporarcu.edu,Jamaica,1,37.94194499,74590.25495,5614.004976,573441.9724,48349.16457
-Lillith H. Larsen,dignissim.lacus.Aliquam@maurissapien.com,Thailand,0,39.69651573,67772.66646,6887.248301,134188.4492,33261.00057
+Lillith H. Larsen,dignissim.lacus.Aliquam@maurissapien.com,Thailand,1,39.69651573,67772.66646,6887.248301,134188.4492,33261.00057
 Tobias L. Sullivan,tempus.non@nasceturridiculus.ca,Poland,1,42.69544169,62563.57825,6130.305181,426488.7459,41327.16554
 Quincy Q. Ayers,nisl.Nulla@Donecelementumlorem.net,Belarus,0,41.87168381,70361.01504,12024.72511,575500.7687,49336.11628
 Ulysses X. Burch,Sed.nunc.est@arcuMorbi.edu,Kyrgyzstan,0,51.29771627,74810.89471,13658.34201,286849.7875,51405.55229
@@ -281,7 +281,7 @@ Kasimir Q. Cherry,risus@in.net,Andorra,0,33.19434796,63065.12164,8907.661779,505
 Dominic I. Faulkner,pharetra.Nam@sociisnatoque.org,Tonga,0,47.79777532,65530.36401,8774.069514,210573.7042,41034.28343
 Pascale I. Key,urna.suscipit@enim.ca,Equatorial Guinea,0,48.93654638,63732.3931,12848.20061,581620.4824,51730.17434
 Nola L. Sweeney,eu@necmaurisblandit.co.uk,Solomon Islands,0,54.61385876,62689.53964,8732.143355,481513.5074,53021.86074
-Clementine X. Powell,quis.pede@Aliquamfringilla.ca,Papua New Guinea,1,41.86361457,51539.93045,6932.950306,371355.6935,32828.03477
+Clementine X. Powell,quis.pede@Aliquamfringilla.ca,Papua New Guinea,0,41.86361457,51539.93045,6932.950306,371355.6935,32828.03477
 Quinlan U. Sears,magna@velarcueu.ca,Canada,1,40.8753749,59060.08664,5841.612044,136346.3069,29417.64694
 Odette Q. Sherman,Mauris.molestie@Intincidunt.co.uk,Sierra Leone,1,53.05501309,62713.78149,11498.03993,679435.1745,57461.51158
 Kirestin F. Yang,eleifend.egestas.Sed@tempus.net,South Africa,1,52.77569606,44747.66132,4975.144559,793986.6155,50441.62427
@@ -294,7 +294,7 @@ Rachel E. Suarez,non.vestibulum.nec@euturpis.co.uk,Guam,1,58.9815941,70111.5398,
 Derek X. Richards,tincidunt@porttitor.com,Croatia,1,45.27895873,66747.66857,9691.23462,221290.9818,39904.81613
 Evangeline G. Cooper,Integer.id.magna@Sedidrisus.org,Saint Barthélemy,1,47.45421163,72025.6768,6988.652757,222341.0342,44736.41097
 Kieran G. Justice,in@Sed.co.uk,Samoa,1,49.4022674,70737.29383,13851.11162,266765.477,46937.17422
-Zenia H. Patel,dis@tortor.com,Puerto Rico,0,39.98349575,57455.7609,12186.02793,159727.8753,24440.81268
+Zenia H. Patel,dis@tortor.com,Puerto Rico,1,39.98349575,57455.7609,12186.02793,159727.8753,28440.81268
 Michelle R. Burke,dui@justo.ca,Mauritania,1,41.37223373,60657.59355,3331.304747,392177.789,38148.00163
 Florence U. Hunter,diam@tellus.org,Ethiopia,0,46.75803824,50694.42707,10881.90102,587858.6295,42747.53925
 Jelani A. Wall,aliquet@Duisa.co.uk,Brazil,0,27.44024624,55369.72784,10888.93494,606851.1696,29670.83337
@@ -331,7 +331,7 @@ Jelani A. Wall,aliquet@Duisa.co.uk,Brazil,0,27.44024624,55369.72784,10888.93494,
 "Langley, Skyler J.",mi.eleifend.egestas@cursuset.net,Austria,1,44.23255578,45504.74866,9245.466786,374777.6929,31526.04931
 "Caldwell, Yolanda F.",ac.facilisis.facilisis@necmalesuada.com,Czech Republic,0,48.07331843,50017.38154,7514.393035,160487.0006,31083.70271
 "Olson, Riley O.",ornare.sagittis@hendrerit.ca,Bouvet Island,1,47.47086936,66226.72902,8511.814921,356213.0776,45366.35963
-"Irwin, Dillon J.",arcu@dictummiac.edu,Tokelau,1,31.24483833,41361.95045,10755.50842,615720.0425,25252.93221
+"Irwin, Dillon J.",arcu@dictummiac.edu,Tokelau,0,31.24483833,41361.95045,10755.50842,615720.0425,25252.93221
 "Terry, Mollie K.",quam.dignissim.pharetra@aauctornon.ca,Greenland,1,45.34659851,56687.41273,9050.284083,414034.6096,39888.59789
 "Hudson, Maxwell F.",metus.eu.erat@non.org,Guernsey,0,48.70123214,68114.60169,11633.95265,521061.1115,52240.72866
 "Levy, Irma P.",lacus.varius@sitamet.ca,Saint Kitts and Nevis,0,61.31742411,51086.88482,12254.53943,59630.07789,39911.6116
@@ -368,7 +368,7 @@ Jelani A. Wall,aliquet@Duisa.co.uk,Brazil,0,27.44024624,55369.72784,10888.93494,
 "Cote, Evangeline F.",lorem.tristique.aliquet@estNunclaoreet.net,Belgium,1,43.12954854,54236.62092,7275.314728,432447.5324,37183.10293
 "Delgado, Jasper U.",lacinia@posuere.ca,Isle of Man,1,57.80193013,64426.59613,9514.645028,137601.844,46710.52519
 "Hardy, Hilary R.",egestas.Fusce@orciDonecnibh.com,Micronesia,1,48.83752201,71150.19894,9848.997857,480468.247,52889.56257
-"Stafford, Berk Y.",Quisque@ultriciessem.net,Dominican Republic,0,42.99229711,60325.20676,10128.1151,62149.94034,20754.66271
+"Stafford, Berk Y.",Quisque@ultriciessem.net,Dominican Republic,0,42.99229711,60325.20676,10128.1151,62149.94034,29754.66271
 "Daugherty, Veda M.",venenatis.vel.faucibus@iaculisnec.net,Guinea,1,48.30867264,91083.73918,13148.85597,387538.2487,60960.83428
 "Harmon, David N.",aliquet.diam.Sed@posuere.org,Curaçao,0,39.71130983,60380.22868,2799.719601,508962.4874,39975.43302
 "Houston, Grant O.",ut.aliquam@egetlacusMauris.ca,Bermuda,1,34.72822141,72948.11812,12664.32052,360457.0496,38545.80328
@@ -402,7 +402,7 @@ Nola,elit@Fuscealiquamenim.ca,Montenegro,0,31.98877902,60584.85458,8133.45931,12
 Melodie,facilisi.Sed@tortordictum.com,"Korea, South",1,61.70429878,66655.4142,8001.644302,805075.5197,70598.96768
 Seth,dignissim@nibhPhasellus.com,Turks and Caicos Islands,0,48.59322101,63718.8812,11863.06428,298920.0067,43242.58224
 Kyra,Etiam@diamluctus.org,Portugal,0,42.88453632,60862.97749,8033.550461,344060.1754,38138.57511
-Caldwell,amet@congue.edu,Iceland,0,36.2452565,67508.12293,10188.68685,141587.6498,30419.8
+Caldwell,amet@congue.edu,Iceland,1,36.2452565,67508.12293,10188.68685,141587.6498,30419.8
 Benjamin,nisi.Mauris.nulla@vitaeodiosagittis.ca,Faroe Islands,0,61.22472501,61639.76386,17870.63765,684209.551,63868.94051
 Florence,eros@faucibus.com,"Virgin Islands, British",0,45.75422949,63172.95729,6332.2019,456524.7944,45112.94547
 Oleg,Aenean.gravida@mifelis.com,Tuvalu,0,56.67256191,58653.6591,17142.41332,201228.0206,44361.87507
@@ -412,7 +412,7 @@ Illana,mi.pede.nonummy@euismodetcommodo.org,Bahamas,1,62.75948863,71948.80529,80
 Yvette,justo@pedeCras.ca,Brazil,0,49.28968587,67629.84819,10916.85532,151946.3089,41769.38288
 Walter,metus.vitae.velit@CuraePhasellus.co.uk,Antarctica,1,44.09922748,67121.32166,12087.38116,472403.1231,46402.53583
 Dexter,est.arcu@in.org,Senegal,1,43.17653402,57376.4803,12878.54582,376886.359,37376.63439
-Cameran,tristique@ligulaAliquam.net,Mauritania,0,48.14257112,56944.87077,16449.0665,116407.5289,13766.6413
+Cameran,tristique@ligulaAliquam.net,Mauritania,0,48.14257112,56944.87077,16449.0665,116407.5289,33766.6413
 Penelope,vestibulum@metus.org,Luxembourg,0,36.96953352,60174.05765,15666.43155,271414.7592,30667.60927
 Hyatt,erat.Vivamus@ligula.co.uk,Algeria,1,48.98030739,81997.33071,12616.45622,237185.1714,52056.41478
 Stone,neque.non@iaculisaliquet.edu,Colombia,1,40.20456044,36960.76994,1768.874438,630120.001,30736.5798
@@ -454,7 +454,7 @@ Kaitlin,parturient@Nuncsollicitudincommodo.co.uk,French Southern Territories,1,5
 Harriet,amet.orci@tellus.net,Mali,0,47.46701603,58260.57232,4658.41454,507572.635,45271.46081
 Tatyana,sem@parturientmontesnascetur.net,Norfolk Island,0,25.17989327,45092.74073,11380.09288,158758.3577,9000
 Paula,Nam@enimmitempor.com,Northern Mariana Islands,1,44.70222518,63845.77186,7761.848528,505048.7599,46012.10616
-Tamekah,ut.pharetra@ametultricies.net,Costa Rica,0,46.47392714,55293.575,8276.644566,169475.9968,32967.20191
+Tamekah,ut.pharetra@ametultricies.net,Costa Rica,1,46.47392714,55293.575,8276.644566,169475.9968,32967.20191
 Brandon,non@purusaccumsaninterdum.com,Suriname,0,32.79649861,87598.01501,10814.57915,485563.7363,48785.15839
 Veda,et.euismod@Duis.co.uk,Luxembourg,1,42.78726724,71753.30877,9119.791422,400703.2655,45824.5656
 Seth,Nulla.aliquet@sedturpisnec.co.uk,Bosnia and Herzegovina,1,47.5469052,45368.15561,12203.48778,577058.1773,40102.11417
@@ -468,7 +468,7 @@ Vaughan,Aliquam@aaliquet.com,Ukraine,0,51.44198125,92455.72807,9877.169366,28532
 India,risus.at.fringilla@feugiat.ca,Nigeria,0,54.52160505,32697.98161,10858.02526,218808.7553,28463.64326
 Edward,rutrum.urna@faucibusidlibero.co.uk,Greenland,1,35.05685897,55418.75606,8837.654857,312927.9187,27586.20078
 Laurel,felis@orciconsectetuereuismod.ca,India,0,43.30468502,68921.40213,8120.204455,515012.2804,47979.48549
-Igor,Proin.eget@aliquetnecimperdiet.org,Grenada,1,36.51447117,43739.97829,5933.177726,517110.9454,28164.86039
+Igor,Proin.eget@aliquetnecimperdiet.org,Grenada,0,36.51447117,43739.97829,5933.177726,517110.9454,28164.86039
 Diana,purus.ac.tellus@parturientmontesnascetur.org,Guadeloupe,0,59.61961534,81565.95967,9072.063059,544291.9504,69669.47402
 Todd,egestas.a@vel.ca,New Zealand,0,43.54252824,65364.06334,7839.414396,579640.7982,48052.65091
 Zephania,montes@sedsem.ca,Malawi,1,39.2812453,65019.15701,4931.56016,341330.7344,37364.23474
@@ -480,7 +480,7 @@ Isabella,et.magnis@necmetus.ca,Turkey,1,40.75405169,60101.79725,12989.36784,3407
 Mia,sed.est@afelisullamcorper.edu,Turkmenistan,1,50.76936195,50153.43545,6596.01369,266939.1746,36517.70996
 Chester,Integer@odioauctor.co.uk,Jamaica,0,57.61545628,61430.93415,11561.07365,421891.846,53110.88052
 Isaac,pretium.aliquet.metus@pretiumneque.com,Saint Kitts and Nevis,0,50.80193441,65846.5096,9141.668545,531840.3342,53049.44567
-Heather,erat.Etiam@elementum.org,Madagascar,0,29.03452095,55433.61187,10769.75059,276466.6203,21471.11367
+Heather,erat.Etiam@elementum.org,Madagascar,1,29.03452095,55433.61187,10769.75059,276466.6203,21471.11367
 Justine,orci.adipiscing@penatibuset.com,Venezuela,1,52.96776171,62979.60196,14297.25366,247421.9185,45015.67953
 Bert,sem.Pellentesque@quis.net,Israel,0,43.3868909,76523.33258,10373.00856,620355.2658,55377.87697
 Gil,Phasellus.fermentum@dictumplacerataugue.net,France,0,62.07084214,63956.1618,16978.52745,360787.6401,56510.13294

@@ -36,6 +36,7 @@
 %% The first command in your LaTeX source must be the \documentclass command.
 \documentclass[manuscript,screen,review,nonacm]{acmart}
 \usepackage{hyperref,xurl}
+\usepackage{natbib}
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
 \AtBeginDocument{%
@@ -188,13 +189,13 @@
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-This project focuses on predicting car sales prices using Deep Learning and compares them to a baseline linear regression model. The dataset, obtained from Kaggle, comprises 500 records with features like customer demographics and financial information. The ANN model is structured with an input layer, two hidden layers using ReLU activation, and an output layer for regression. Evaluation employs Mean Absolute Error (MAE) as the primary metric. Liam Hsieh is the sole contributor for this project, aiming to optimize predictive accuracy and provide valuable insights for the automotive industry.
+  This midterm report provides an overview of the ongoing CS235 project focused on car sales price prediction. It encompasses the exploration of linear regression as a baseline and delves into the evaluation of 81 distinct Artificial Neural Network (ANN) models. The comparative analysis is based on Mean Absolute Error (MAE) and aims to identify optimal predictive modeling approaches.
 \end{abstract}
 
 %%
 %% Keywords. The author(s) should pick words that accurately describe
 %% the work being presented. Separate the keywords with commas.
-\keywords{Car sales price prediction, Deep Learning, Neural Networks, Mean Absolute Error (MAE)}
+\keywords{Car sales price prediction, Neural Networks, Mean Absolute Error (MAE)}
 
 
 %%
@@ -203,71 +204,146 @@ This project focuses on predicting car sales prices using Deep Learning and comp
 \maketitle
 
 \section{Current State}
-\urldef{\repourl}\url{https://github.com/liam-hsieh/CS235/tree/main/project/code}
-The code for this project can be found at GitHub\footnote{\repourl}.
+
 The high-level flow for proposed approach is shown as Fig. \ref{fig:flowchart}.   
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{flowchart.pdf}
+  \includegraphics[width=0.8\linewidth]{flowchart.png}
   \caption{Project Overview.}
   \label{fig:flowchart}
 \end{figure}
 
-BRIEFLY EXPLAIN the flow
+The presented flowchart outlines the sequential steps in a data-driven predictive modeling process. It begins with raw data, progresses through data cleaning and preprocessing, including MinMax normalization. The dataset is then split into training and testing sets with an 80:20 ratio. Two main branches of modeling are pursued: one involves Linear Regression as baseline, and the other explores 81 distinct Artificial Neural Network (ANN) models. The final step involves a comprehensive evaluation of model performance using Mean Absolute Error, providing a comparative analysis between Linear Regression and various ANN models.
 
-More details on performance comparison
+\section{Experimental Configuration}
+Regarding accurately predicting car sales prices, the existing methods often rely on traditional statistical approaches like linear regression, which has been seen as an acceptable method due to a significant linear relationship being found. The problem at hand involves utilizing Artificial Neural Networks (ANNs), a powerful tool in machine learning, to predict car sales prices to further improve performance. By exploring different ANN architectures and comparing them with a baseline linear regression model, we aim to identify the most effective approach for predicting car sales prices accurately.
+
+
+\subsection{Linear Regression}
+In this predictive modeling task, we aim to utilize linear regression as the baseline method to estimate the car purchase amount based on a set of five input factors. Except for gender which is a binary factor, the other input factors, after MinMax normalization, include the individual's age , annual salary, credit card debt, and net worth, all normalized to fall within the range of 0 to 1.
+
+
+Linear regression is a statistical method that assumes a linear relationship between the input features and the target variable. In our case, the linear regression model can be expressed as:
+
+
+\begin{equation*}
+y_{\text{price}} = \beta_0 + \beta_1 \cdot X_{\text{gender}} + \beta_2 \cdot X_{\text{age}} + \beta_3 \cdot X_{\text{salary}} + \beta_4 \cdot X_{\text{debt}} + \beta_5 \cdot X_{\text{net\_worth}} + \epsilon
+\end{equation*}
+
+where:  
+\begin{itemize}
+  \item $y_{\text{price}}$ is the predicted car price.
+  \item $\beta_0$ is the intercept term.
+  \item $\beta_1, \beta_2, \beta_3, \beta_4,\beta_5$ are the coefficients associated with each factor.
+  \item $X_{\text{gender}}, X_{\text{age}}, X_{\text{salary}}, X_{\text{debt}}, X_{\text{net\_worth}}$ are input factors.
+  \item $\epsilon$ represents the error term, accounting for unobserved factors.
+\end{itemize}
+
+The coefficients $\beta_0, \beta_1, \beta_2, \beta_3, \beta_4,\beta_5$ are estimated during the training phase, aiming to minimize the difference between the predicted car price and the actual values in \(y_{\text{price}}\). Once trained, the linear regression model can be used to make predictions on new data, providing insights into the expected car price based on the given input factors.
+
 
 \subsection{Artificial Neuron Network}
-In the project proposal, we mentioned the method would be used and different settings are investigated. 
 
-In this project, we systematically investigate the performance of different ANN structures and optimization methods to identify the optimal configuration for predicting our target variable. We consider a range of activation functions, including 'relu,' 'tanh,' 'sigmoid,' and 'linear,' and vary the number of neurons in each layer with choices of 8, 16, 32, and 64 neurons. Additionally, we explore different optimizers, such as 'adam,' 'sgd,' 'rmsprop,' and 'adagrad.'
+In this project, we systematically investigate the performance of different ANN structures and optimization methods to identify the optimal configuration for predicting our target variable. We consider a range of activation functions, including {\it relu},{\it sigmoid}, and {\it linear} and vary the number of neurons in each layer with choices of 5, 10, and 15 neurons. Additionally, we explore different optimizers, such as {\it adam},{\it sgd}, and {\it nadam}. We generate ANN models based on the combinations of activation functions, neuron counts, and optimizers. All models are compiled using the mean absolute error loss function and mean absolute error as the evaluation metric. For each model we created, we train it on a training set for 100 epochs with a validation split of 20\%. 
 
-We generate ANN models based on the combinations of activation functions, neuron counts, and optimizers. Each model consists of multiple layers, including an input layer with 5 dimensions, hidden layers with the specified number of neurons and chosen activation function, and an output layer with a linear activation function. All models are compiled using the mean squared error loss function and mean absolute error as the evaluation metric.
 
-For each model, we train it on a training set (X_train, y_train) for 50 epochs with a validation split of 20\%. We collect performance metrics, mean absolute error, during training for both the training and validation sets. These metrics provide insights into how well each configuration performs on the given dataset.
+\subsubsection{Optimizer}  
+\hfill\\
+\textbf{Adam (Adaptive Moment Estimation):} Adam maintains two moving averages,$m_t$(mean) and $v_t$(uncentered variance), of the gradients $g_t$. The hyperparameters $\beta_1$ and $\beta_2$ control the decay rates of these moving averages. The $\hat{m}_t$ and $\hat{v}_t$ are bias-corrected estimates. The learning rate $\eta$ is adaptive for each parameter \citep{kingma2014adam}. 
+
+Here is how it update the value:
+\begin{align*}
+     & m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t \\
+     & v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2 \\
+     & \hat{m}_t = \frac{m_t}{1 - \beta_1^t} \\
+     & \hat{v}_t = \frac{v_t}{1 - \beta_2^t} \\
+     & \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \cdot \hat{m}_t
+\end{align*}
+
+\textbf{Stochastic Gradient Descent (SGD):} As a classic optimization algorithm, it is a computationally efficient option. SGD updates the parameters $\theta$ in the direction of the negative gradient $g_t$ with a fixed learning rate $\eta$.
+
+Here is how SGD update the value:
+\begin{equation*}
+\theta_{t+1} = \theta_t - \eta \cdot g_t
+\end{equation*}
+
+\textbf{Nadam (Nesterov-accelerated Adaptive Moment Estimation):} Nadam incorporates Nesterov momentum into Adam. It combines the advantages of Adam and Nesterov accelerated gradient (NAG) by using the NAG update in the final step \citep{dozat2016incorporating}.
+
+Here is how Nadam update the value:
+\begin{align*}
+     & m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t \\
+     & v_t = \beta_2 \cdot v_{t-1} + (1 - \beta_2) \cdot g_t^2 \\
+     & \hat{m}_t = \frac{m_t}{1 - \beta_1^t} \\
+     & \hat{v}_t = \frac{v_t}{1 - \beta_2^t} \\
+     & \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \cdot (\beta_1 \cdot \hat{m}_t + (1 - \beta_1) \cdot g_t)
+\end{align*}
+
+\subsubsection{activation function}
+\hfill\\
+Here, we briefly summary activation functions existing in this experiment:
+\begin{center}
+  \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Activation Function} & \textbf{Mathematical Expression} \\
+    \hline
+    ReLU (Rectified Linear Unit) & $f(x) = \max(0, x)$ \\
+    \hline
+    Sigmoid (Logistic Function) & $f(x) = \frac{1}{1 + e^{-x}}$ \\
+    \hline
+    Linear Activation & $f(x) = x$ \\
+    \hline
+  \end{tabular}
+\end{center}
 
 The experiment aims to analyze and compare the performance of these different configurations, helping us identify the most suitable ANN architecture and optimization strategy for our predictive modeling task.
 
 \section{PRELIMINARY RESULTS}
-Accurately predicting car sales prices is a critical task that significantly influences purchasing decisions for both consumers and dealerships. The existing methods often rely on traditional statistical approaches like linear regression, which may not fully capture the complexities and non-linearity present in the data. The problem at hand involves utilizing Artificial Neural Networks (ANNs), a powerful tool in machine learning, to predict car sales prices. ANN models can potentially grasp intricate patterns and relationships within the dataset, enabling superior predictive performance compared to conventional linear regression methods. By exploring different ANN architectures and comparing them with a baseline linear regression model, we aim to identify the most effective approach for predicting car sales prices accurately.
 
-\subsection{Dataset}
-\urldef{\dataurl}\url{https://www.kaggle.com/datasets/yashpaloswal/ann-car-sales-price-prediction}
+The code for this project can be found at project repository on GitHub \citep{code}.
 
+All the output results have been illustrated by Fig. \ref{fig:output}. Although linear regression model has relatively low MAE on both training and testing data, we still identify a few ANN models outperforming our baseline. The models with the lowest Test MAE values (indicating better performance on unseen data) are (linear, 5, 15, adam) and (linear, 5, 10, adam), with Test MAE values of 0.000908 and 0.001653, respectively.
+Models with {\it adam} as the optimizer generally perform better compared to other optimizers, especially {\it sgd}. Also, models with a linear activation function tend to perform better than other activation functions.
+Increasing the number of neurons in the layers does not always result in better performance. Some models with fewer neurons outperform those with more neurons.
+The worst-performing models are those using {\it sigmoid} function with {\it sgd} optimizor.
 
-The dataset utilized in this project is sourced from Kaggle \footnote{\dataurl} and is centered around predicting car sales prices using machine learning techniques. The dataset contains 500 records with 9 columns, featuring both predictors and the target variable. 
-
-
-\textbf{Predictors}:
-\begin{itemize}
-    \item Customer Name: The name of the customer.
-    \item Customer Email: The email address of the customer.
-    \item Country: The country of the customer.
-    \item Gender: Gender of the customer (binary encoding: 0 for male, 1 for female).
-    \item Age: Age of the customer.
-    \item Annual Salary: The customer's annual salary.
-    \item Credit Card Debt: The amount of credit card debt the customer has.
-    \item Net Worth: The net worth of the customer.
-\end{itemize}
-
-\textbf{Target/Label}:
-\begin{itemize}
-    \item Car Purchase Amount: The amount a customer spends on purchasing a car.
-\end{itemize}
+All the output results have been illustrated by Fig. \ref{fig:output}. Although the linear regression model has a relatively low MAE on both training and testing data, we still identify a few ANN models outperforming our baseline. The models with the lowest Test MAE values (indicating better performance on unseen data) are \textbf{(linear, 5, 15, adam)} and \textbf{(linear, 5, 10, adam)}, with Test MAE values of 0.000908 and 0.001653, respectively.
+Models with {\it adam} as the optimizer generally perform better compared to other optimizers, especially {\it sgd}. Also, models with a linear activation function tend to perform better than other activation functions.
+Increasing the number of neurons in the layers does not always result in better performance. Some models with fewer neurons outperform those with more neurons.
+The worst-performing models are those using the {\it sigmoid} function with {\it sgd} optimizer.
 
 
-The dataset provides a diverse range of customer information that can be utilized to train and evaluate machine learning models for predicting car purchase amounts. The inclusion of both demographic and financial features allows for a comprehensive analysis, which is crucial in building accurate prediction models for car sales prices. 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\linewidth]{output.png}
+  \caption{Output Overview}
+  \label{fig:output}
+\end{figure}
 
-\section{Proposed Approach}
-The proposed approach involves initially splitting the dataset into a training set (80\%) and a testing set (20\%). The core of the project revolves around leveraging Artificial Neural Networks (ANNs) to predict car sales prices. The ANN architecture comprises an input layer representing selected features, two hidden layers activated using Rectified Linear Unit (ReLU) functions, and an output layer for regression, employing the mean squared error loss. The Keras library, built on TensorFlow, will be utilized to implement the ANN model. Specifically, the output layer will employ a linear activation function to predict numeric car purchase amounts. Different activation functions will be explored and compared to determine the most effective model configuration. The ANN model will be compiled using a defined optimizer and loss function, and subsequently trained on the training set. Evaluation of the ANN's performance will be conducted using the testing set. Additionally, a baseline linear regression model will be implemented and compared with the ANN model to assess and compare predictive performances, ultimately selecting the most accurate and efficient model for car sales price prediction.
+We then conduct statistical tests for the best ANN model, \textbf{(linear, 5, 15, adam)},
 
-
-\section{Evaluation Metrics}
-For assessing the accuracy of our car sales price prediction models, Mean Absolute Error (MAE) will be the primary evaluation metric. MAE calculates the average absolute differences between the predicted and actual car purchase amounts. A lower MAE signifies a more accurate prediction model, where smaller absolute differences indicate closer alignment between predicted and observed prices. 
-
- 
-
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|l|}
+  \hline
+  \textbf{Metric} & \textbf{Value} \\
+  \hline
+  Size of Testing Data & 100 \\
+  Variance of Predicted Samples & 0.0239 \\
+  Variance of Actual Values & 0.0242 \\
+  Standard Deviation of Predicted Samples & 0.1545 \\
+  Ratio for Checking Nearly Equal Variance & 0.9867 \\
+  T-Statistics & 0.0142 \\
+  P Value & 0.9887 \\
+  \hline
+  \end{tabular}
+  \caption{Statistical Test Results}
+  \label{tab:statistical_results}
+\end{table}
+  
+Table \ref{tab:statistical_results} summarizes the results of a two-tailed test comparing the variances between the predicted samples and the actual values in the testing dataset. The size of the testing data is 100. The variance of the predicted samples is found to be 0.0239, while the variance of the actual values is 0.0242. The standard deviation of the predicted samples is 0.1545. The ratio for checking nearly equal variance is 0.9867, suggesting a close match between the variances. The calculated t-statistics is 0.0142, and the associated p-value is 0.9887. With a p-value greater than the commonly used significance level of 0.05, we do not have sufficient evidence to reject the null hypothesis. Therefore, we conclude that there is no significant difference in variances between the predicted samples and the actual values; the prediction model we proposed can perform a satisfactory output.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{reference}
 \end{document}
 \endinput
 %%
