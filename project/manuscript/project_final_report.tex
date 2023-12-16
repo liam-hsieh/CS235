@@ -109,8 +109,8 @@
   \institution{University of California, Riverside}
   \streetaddress{900 University Ave}
   \city{Data Science, MSOL}\\
-  \state{862395843}
-  \country{}
+  \state{SID: 862395843}\\
+  \country{NetID: lhsie013}
 }
 \email{lhsie013@ucr.edu}
 
@@ -136,7 +136,7 @@ This project leverages Artificial Neural Networks (ANNs) to predict car sales pr
 
 \section{Introduction}
 
-\urldef{\dataurl}\url{https://www.kaggle.com/datasets/yashpaloswal/ann-car-sales-price-prediction}
+\urldef{\dataurl}\nolinkurl{https://www.kaggle.com/datasets/yashpaloswal/ann-car-sales-price-prediction}
 
 The proposed project aims to leverage Deep Learning to predict car sales prices based on a dataset obtained from Kaggle \footnote{\dataurl}. The dataset consists of 500 records with 9 columns, encompassing customer details such as name, email, country, gender, age, annual salary, credit card debt, net worth, and car purchase amount. The objective is to explore the potential of ANN models in predicting car sales prices compared to a baseline model using linear regression. Linear regression will serve as the benchmark model, and various ANN structures will be evaluated to identify the most suitable and accurate predictive model. By harnessing the capabilities of ANN, we aim to enhance the accuracy and precision of car sales price predictions, providing valuable insights for the automotive industry and aiding customers in making informed purchasing decisions.
 
@@ -152,7 +152,7 @@ Given the strong linear relationship between features and price, linear regressi
 
 \section{Proposed Approach} 
 
-The proposed approach involves initially splitting the dataset into a training set (80\%) and a testing set (20\%). The core of the project revolves around leveraging Artificial Neural Networks (ANNs) to predict car sales prices. The ANN architecture comprises an input layer representing selected features, multiple hidden layers activated using linear functions, and an output layer for regression, employing the mean absolute error loss. The Keras library, built on TensorFlow, will be utilized to implement the ANN model. Specifically, the output layer will employ a linear activation function to predict numeric car purchase amounts. Different activation functions, e.g., {\it relu},{\it sigmoid}, and {\it linear}, number of hidden layers, and optimizers, e.g., {\it adam},{\it sgd}, and {\it nadam}, including will be explored and compared to determine the most effective model configuration. The ANN model will be compiled using a defined optimizer and loss function, and subsequently trained on the training set. Evaluation of the ANN's performance will be conducted using the testing set. After a screening experiment for different optimizers, number of neurons, and activate functions, we further applied cross validation to determine the potential of adding additional hidden layers from just two to five and to select the most accurate and efficient model for car sales price prediction.
+The proposed approach involves initially splitting the dataset into a training set (80\%) and a testing set (20\%). The core of the project revolves around leveraging Artificial Neural Networks (ANNs) to predict car sales prices. The ANN architecture comprises an input layer representing selected features, multiple hidden layers activated using linear functions, and an output layer for regression, employing the mean absolute error loss. The Keras library, built on TensorFlow, will be utilized to implement the ANN model. Specifically, the output layer will employ a linear activation function to predict numeric car purchase amounts. Different activation functions, e.g., {\it relu},{\it sigmoid}, and {\it linear}, number of hidden layers, and optimizers, e.g., {\it adam},{\it sgd}, and {\it nadam}, will be explored and compared to determine the most effective model configuration. The ANN model will be compiled using a defined optimizer and loss function, and subsequently trained on the training set. Evaluation of the ANN's performance will be conducted using the testing set. After a screening experiment for different optimizers, number of neurons, and activate functions, we further applied cross validation to determine the potential of adding additional hidden layers from just two to five and to select the most accurate and efficient model for car sales price prediction.
 
 The model we eventually used for the prediction is described as follows:
 
@@ -188,7 +188,7 @@ The results of pre-screening have been illustrated by Fig. \ref{fig:prescreen_ou
 \begin{figure}
   \centering
   \includegraphics[width=0.8\linewidth]{prescreening_output.png}
-  \caption{Output Overview}
+  \caption{Results of pre-screening}
   \label{fig:prescreen_output}
 \end{figure}
 
@@ -209,7 +209,6 @@ Moreover, Fig. \ref{fig:boxplot} and Fig. \ref{fig:layers} support our decision 
     \caption{Comparison of ANN models.}
     \label{fig:comparison}
 \end{figure}
-
 
 
 \section{DISCUSSION and CONCLUSIOINS}
